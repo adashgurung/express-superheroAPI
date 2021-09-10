@@ -1,0 +1,12 @@
+html   
+    head
+        style
+            include ./style.css
+body
+    ul
+        each superhero in superheroes
+            div.superhero
+                h1= superhero.key
+                p=  superhero.name
+                p=  superhero.powers
+                p=  superhero.strength

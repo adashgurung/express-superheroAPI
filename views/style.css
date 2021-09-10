@@ -1,0 +1,16 @@
+.App {
+  text-emphasis: center;
+  margin: 2em;
+}
+
+.superhero {
+  max-width: 600px;
+  background-color: red;
+  color: black;
+  padding: 1em;
+  margin: auto;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border: 2px solid black;
+  font: normal 12px "Helvetica Neue", Helvetica, Arial;
+}
